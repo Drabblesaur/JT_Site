@@ -10,6 +10,7 @@ module.exports = {
             'brand-gray': '#7C6C77',
             'brand-green': '#479F76',
             'brand-orange': '#FD7E14',
+            'white': '#FFFFFF',
         },
         fontFamily: {
             'rubik-MonoOne': ['Rubik Mono One', 'sans-serif'],
