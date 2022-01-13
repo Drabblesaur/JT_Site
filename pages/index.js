@@ -1,4 +1,4 @@
-import Card from "../components/Card";
+import Card from "../components/card.js";
 export default function Home() {
   return (
     <div className="bg-back_svg  bg-contain bg-no-repeat bg-right">
