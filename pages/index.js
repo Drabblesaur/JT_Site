@@ -1,7 +1,7 @@
 import Card from "../components/card.js";
 export default function Home() {
   return (
-    <div className="bg-back_svg  bg-contain bg-no-repeat bg-right">
+    <div className=" flex-grow bg-back_svg  bg-contain bg-no-repeat bg-right">
       <div className="font-rubik-MonoOne text-base grid place-content-center w-full">
         <div className=" mb-16 text-lg">
           <p>HI! I&apos;m Johnny! I&apos;m a UCR Computer Science<br></br>Student with a passion for Design and Code.</p>
