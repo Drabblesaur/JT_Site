@@ -1,11 +1,12 @@
 import Link from 'next/link'
+import Image from "next/image"
 const Navbar = () => {
   return (
     <header>
       <div className="container flex items-center justify-start p-8">
         <Link href="/">
           <a>
-          <img className="" src="/JT_Home_Button.svg" alt="Home Button" />
+          <Image src="/JT_Home_Button.svg" alt="Home Button" width="110" height="110" layout="intrinsic"/>
           </a>
         </Link>
         <ul className="flex items-center space-x-6">
