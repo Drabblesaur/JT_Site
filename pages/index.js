@@ -26,7 +26,7 @@ export default function Home({pinnedItems}) {
     </div>
   )
 }
-
+/*
 export async function getStaticProps() {
   const httpLink = createHttpLink({
     uri: 'https://api.github.com/graphql',
@@ -84,3 +84,4 @@ export async function getStaticProps() {
     }
   }
 }
+*/
