@@ -3,7 +3,7 @@ import Image from "next/image"
 const Navbar = () => {
   return (
     <header>
-      <div className="container flex items-center justify-start p-8">
+      <div className="container flex items-center justify-start p-8 min-w-[770px]">
         <Link href="/">
           <a>
           <Image src="/JT_Home_Button.svg" alt="Home Button" width="110" height="110" layout="intrinsic"/>
